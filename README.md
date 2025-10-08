@@ -1,4 +1,4 @@
-<h1 align="center">React-router</h1>
+<h1 align="center">React-context-api</h1>
 
 ###
 
@@ -15,12 +15,12 @@
 </div>
 
 ###
-![completato pagina Home](./Homepage.png)
-![completato pagina Chi Siamo](./ChiSiamo.png)
-![completato pagina Prodotti](./Prodotti.png)
-![completato pagina Prodotti](./DettagliProdotti.png)
+###
+![completato pagina Budget](./ModalitàBudget.png)
 
-<p align="left"><br><br>Esercizio di oggi: React Router Store<br><br>repo: react-router<br><br>Consegna<br><br>Creiamo il frontend del nostro mini e-commerce e le sue pagine principali!<br>Useremo Fake Store API come backend fittizio per simulare i dati dei prodotti.<br><br>https://fakestoreapi.com/<br><br>Obiettivi<br><br>Installiamo React Router DOM: npm i react-router-dom<br>Creiamo almeno 3 pagine principali:<br>Homepage (con un messaggio di benvenuto o immagine promozionale)<br>Chi siamo<br>Prodotti (pagina che mostrerà la lista dei prodotti prendendoli da https://fakestoreapi.com/products)<br>Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse<br><br>Bonus<br><br>Centralizziamo la Navbar usando un componente Layout<br>Gestiamo la classe active per i link attivi nella Navbar</p>
+<p align="left">Esercizio di oggi: React Context API<br><br>repo: react-context-api<br><br>Oggi estendiamo il nostro mini e-commerce introducendo le Context API di React.<br>Useremo un contesto per gestire una modalità budget, che permette all’utente di visualizzare solo i prodotti più economici.<br><br>---<br><br>Consegna<br><br>MILESTONE 1<br><br>Create un nuovo context chiamato BudgetContext<br><br>Deve contenere uno stato budgetMode di tipo booleano (true/false)<br>Deve fornire anche la funzione per modificarlo (setBudgetMode)<br>Wrappiamo l’intera applicazione con il BudgetProvider<br><br>MILESTONE 2<br><br>Create un componente Navbar.jsx (se non lo avete già)<br><br>Inseritelo in App.jsx (oppure nel vostro componente di layout se avete organizzato l’app in questo modo)<br>All’interno della Navbar aggiungete un bottone “Modalità Budget” che attiva/disattiva budgetMode con un click<br>Il bottone deve cambiare etichetta in base allo stato (Attiva Modalità Budget / Disattiva Modalità Budget)<br><br>MILESTONE 3<br><br>Modificate la pagina dei prodotti:<br><br>Recuperate il valore budgetMode usando il context<br>Se budgetMode === true, mostrate solo i prodotti con price <= 30<br>Altrimenti, mostrare tutti i prodotti normalmente<br><br>BONUS<br>Valutare se può aver senso centralizzare i dati dei prodotti nel context e quindi richiamarli da li, invece che da pagine e/o componenti</p>
+
+###
 
 ###
 
