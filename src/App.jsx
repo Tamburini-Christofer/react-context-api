@@ -5,7 +5,7 @@ import ChiSiamo from "./pages/ChiSiamo";
 import Prodotti from "./pages/Prodotti";
 import DettagliProdotti from "./pages/DettagliProdotti";
 import Layout from "./layout/Layout";
-import { BudgetProvider } from "./components/Budget";
+import { BudgetProvider } from "./components/BudgetContext";
 
 import "./App.css";
 

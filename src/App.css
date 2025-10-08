@@ -85,6 +85,14 @@ header {
   background-image: url("../public/sfondo.png");
 }
 
+.containerProdotti h4{
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color:#ff0099;
+  background-color: #00d5ff;
+}
+
 /* Home page */
 .presentation {
   width: 40%;
