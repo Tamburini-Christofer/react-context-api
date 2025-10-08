@@ -1,18 +1,18 @@
 import { createContext, useState, useContext } from "react";
 
 // Creiamo il contesto
-const BudgetContext = createContext();
+const Budget = createContext();
 
 // Creiamo il Provider
 export const BudgetProvider = ({ children }) => {
   const [budget, setBudget] = useState(false);
 
   return (
-    <BudgetContext.Provider value={{ budget, setBudget }}>
+    <Budget.Provider value={{ budget, setBudget }}>
       {children}
-    </BudgetContext.Provider>
+    </Budget.Provider>
   );
 };
 
 // Custom hook per usare facilmente il contesto
-export const useBudget = () => useContext(BudgetContext);
+export const useBudget = () => useContext(Budget);
